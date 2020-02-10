@@ -1,6 +1,22 @@
+###############################################################################
+###
+### tekscan
+### This file is part of CorePressure
+### This file was created by Dr Daniel Parker 
+### 
+###   to run from commandline either change directory to location of tekscan.py or add directory to searchable list 
+###        >>>> import sys
+###        >>>> sys.path.append('C:/MY DIRECTORY')
+###        >>>> import tekscan
+###
+###
+### Copyright (C) 2018 University of Salford - All Rights Reserved
+### You may use, distribute and modify this code under the terms of MIT Licence
+### See <filename> or go to <url> for full licence details
+###
+###############################################################################
 
-import os, sys
-from matplotlib import pyplot
+import os
 
 def convert_tekscan(fname,f_tag):
 
@@ -36,8 +52,6 @@ def convert_tekscan(fname,f_tag):
 
 	f.close()	
 
-
-pyplot.close('all')
 
 dir0   = 'C:/Users/hls376/Desktop/Tek/'    # Path to files
 file_List   = os.listdir(dir0)                       ## Build file list

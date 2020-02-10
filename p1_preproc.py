@@ -1,3 +1,17 @@
+###############################################################################
+###
+### p1_preproc
+### This file is part of CorePressure
+### This file was created by Dr Daniel Parker 
+### includes a set of fuctions to process walking data from pedar 
+###   
+### Copyright (C) 2018 University of Salford - All Rights Reserved
+### You may use, distribute and modify this code under the terms of MIT Licence
+### See <filename> or go to <url> for full licence details
+###
+###############################################################################
+
+
 import os
 import numpy as np
 import pandas as pd
